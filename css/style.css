@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ a{
+     text-decoration: none;
+ }
+ body{
+     background-color: #00beef;
+ }
+ #container{
+     background-color: #5fd6ef;
+     padding: 20px;
+     border-radius: 20px;
+ }
+ #container .form-group{
+     margin-bottom: 30px;
+ }
+ #container .form-group input{
+     background-color: #beef78;
+     color: black;
+ }
+ .table{
+     background-color: #5fd6ef;
+     border-radius: 20px;
+     overflow: hidden;
+ }
+ #project-concept{
+     text-align: center;
+     padding: 10px 0;
+     background-color: #beef78;
+ }
+ #title{
+     text-align: center;
+     font-style: italic;
+ }
+
+#btn-addworker{
+    transition: .5s ease;
+}
+#btn-addworker:hover{
+    transform: translateY(-10px);
+}
